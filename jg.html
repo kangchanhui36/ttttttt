@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jg.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html"><h1>중랑야구맵</h1></a>
+    <ul>
+        
+            <a href="/og/og.html"><div class="move">타지역<br>Click</div></a>
+        
+
+        <li>
+            
+                
+                <!-- 게시물이 출력될 영역 -->
+                <div class="list">
+                    <ul>
+                        <li><img src="/image/JG1.jpg" alt="사진1"></li>
+                        <li class="left">신내차량기지야구장</li>
+                        <li><button onclick="openModal('modal1')">자세한 내용</button></li>
+                    </ul>
+                    <ul>
+                        <li><img src="/image/JG2.jpg" alt="사진2"></li>
+                        <li class="left">망우리공원운동장</li>
+                        <li><button onclick="openModal('modal2')">자세한 내용</button></li>
+                    </ul>
+                    <ul>
+                        <li><img src="/image/JG3.jpg" alt="사진3"></li>
+                        <li class="left">중랑구립잔디운동장</li>
+                        <li><button onclick="openModal('modal3')">자세한 내용</button></li>
+                    </ul>
+                </div>                                
+            
+        </li>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal1')">&times;</span>
+              <h3>신내차량기지야구장</h3>
+              <p>선생님</p>
+            </div>
+          </div>
+          
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal2')">&times;</span>
+              <h3>망우리공원운동장</h3>
+              <p>죄송해요</p>
+            </div>
+          </div>
+          
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal3')">&times;</span>
+              <h3>중랑구구립잔디운동장</h3>
+              <p>설명을 못 썼어요ㅠㅠㅠ 손이 느려성</p>
+            </div>
+          </div>
+
+    <footer>
+        <div>관리자: 강찬희</div>
+        <div>email: sdh220301.sdh.hs.kr</div>
+    </footer>
+    <script src="jg.js"></script>
+</body>
+</html>

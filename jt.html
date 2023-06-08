@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jt.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html"><h1>중랑야구맵</h1></a>
+    <ul>
+        
+            <a href="/ot/ot.html"><div class="move">타지역<br>Click</div></a>
+        
+        <li>
+            
+                
+                <!-- 게시물이 출력될 영역 -->
+                <div class="list">
+                    <ul>
+                        <li><img src="/image/JT1.jpg" alt="사진1"></li>
+                        <li class="left">중랑이글스 유소년 야구단</li>
+                        <li><button onclick="openModal('modal1')">자세한 내용</button></li>
+                    </ul>
+                    <ul>
+                        <li><img src="/image/JT2.jpg" alt="사진2"></li>
+                        <li class="left">노원구 유소년 야구단</li>
+                        <li><button onclick="openModal('modal2')">자세한 내용</button></li>
+                    </ul>
+                    <ul>
+                        <li><img src="/image/JOT3.jpg" alt="사진3"></li>
+                        <li class="left">구리시 뉴리틀 야구단</li>
+                        <li><button onclick="openModal('modal3')">자세한 내용</button></li>
+                    </ul>
+                </div>                                
+            
+        </li>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal1')">&times;</span>
+              <h3>중랑이글스 유소년 야구단</h3>
+              <p>사랑하는 우리팀!</p>
+            </div>
+          </div>
+          
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal2')">&times;</span>
+              <h3>중랑 리틀 야구단</h3>
+              <p>좀 잘해유</p>
+            </div>
+          </div>
+          
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('modal3')">&times;</span>
+              <h3>중랑 아이돌스</h3>
+              <p>여기는 좀..</p>
+            </div>
+          </div>
+
+    <footer>
+        <div>관리자: 강찬희</div>
+        <div>email: sdh220301.sdh.hs.kr</div>
+    </footer>
+    <script src="jt.js"></script>
+</body>
+</html>
