@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index.html"><h1>중랑야구맵</h1></a>
+    <a href="/index.html"><h1>중랑야구맵</h1></a>
     <ul>
         
             <a href="/og/og.html"><div class="move">타지역<br>Click</div></a>
@@ -20,17 +20,17 @@
                 <!-- 게시물이 출력될 영역 -->
                 <div class="list">
                     <ul>
-                        <li><img src="/image/JG1.jpg" alt="사진1"></li>
+                        <li class="img"><img src="/image/JG1.jpg" alt="사진1"></li>
                         <li class="left">신내차량기지야구장</li>
                         <li><button onclick="openModal('modal1')">자세한 내용</button></li>
                     </ul>
                     <ul>
-                        <li><img src="/image/JG2.jpg" alt="사진2"></li>
+                        <li class="img"><img src="/image/JG2.jpg" alt="사진2"></li>
                         <li class="left">망우리공원운동장</li>
                         <li><button onclick="openModal('modal2')">자세한 내용</button></li>
                     </ul>
                     <ul>
-                        <li><img src="/image/JG3.jpg" alt="사진3"></li>
+                        <li class="img"><img src="/image/JG3.jpg" alt="사진3"></li>
                         <li class="left">중랑구립잔디운동장</li>
                         <li><button onclick="openModal('modal3')">자세한 내용</button></li>
                     </ul>
@@ -41,7 +41,8 @@
             <div class="modal-content">
               <span class="close" onclick="closeModal('modal1')">&times;</span>
               <h3>신내차량기지야구장</h3>
-              <p>선생님</p>
+              <img src="/image/JG1.jpg" alt="사진1">
+              <p>구장 소개: 서울시 중랑구 신내동에 위치한 야구장입니다. 중앙펜스 84m / 내야,외야 인조잔디로 되어있습니다. 중랑구민 : 평일 57,220~286,110원 / 주말 74,380~371,940원 타지역 : 평일 63,580~317,900원 / 주말 82,650~413,270원</p>
             </div>
           </div>
           
@@ -49,7 +50,13 @@
             <div class="modal-content">
               <span class="close" onclick="closeModal('modal2')">&times;</span>
               <h3>망우리공원운동장</h3>
-              <p>죄송해요</p>
+              <img src="/image/JG2.jpg" alt="사진2">
+              <p>서울 중랑구 망우로 540
+                베이스, 투구판, 타격망 구비
+                무료로 사용할 수 있음
+                (전월 선착순 예약-중랑구청 공원녹지과)
+                족구장, 게이트볼장도 구비
+                </p>
             </div>
           </div>
           
@@ -57,7 +64,14 @@
             <div class="modal-content">
               <span class="close" onclick="closeModal('modal3')">&times;</span>
               <h3>중랑구구립잔디운동장</h3>
-              <p>설명을 못 썼어요ㅠㅠㅠ 손이 느려성</p>
+              <img src="/image/JG3.jpg" alt="사진3">
+              <p>서울 중랑구 망우본동 73-2
+                야구체육시설로도 등록 되어 있어서
+                야구 용도 사용 가능
+                중랑구민 : 57,220원~286,110원
+                타지역 : 63,580원~317,900원
+                * 야간조명 : 시간당 11,000원
+              </p>
             </div>
           </div>
 
